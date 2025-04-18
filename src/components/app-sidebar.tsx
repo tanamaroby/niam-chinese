@@ -1,6 +1,7 @@
 "use client";
 
-import { Flower, Globe, Home, Star } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { Flower, Home } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -16,28 +17,66 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar";
 
-import { cn } from "@/lib/utils";
+import {
+  Droplet,
+  Flame,
+  HandHeart,
+  Leaf,
+  RotateCcw,
+  Sparkles,
+  Utensils,
+} from "lucide-react";
 
-const items = [
+export const items = [
   {
     title: "Home",
     url: "/",
     icon: Home,
   },
   {
-    title: "Buddha 35",
-    url: "/buddha-35",
+    title: "Gan Lu Shi Shi Yi Gui",
+    url: "/kan-lu",
     icon: Flower,
   },
   {
-    title: "Ta Cia Che Yin",
-    url: "/ta-cia-che-yin",
-    icon: Globe,
+    title: "Pu Zhao Qing Zhen Yan",
+    url: "/pu-cau-ching-chen-yan",
+    icon: Sparkles,
   },
   {
-    title: "Aksobhya Buddha",
-    url: "/aksobhyabuddha",
-    icon: Star,
+    title: "Jie Yuan Jie Zhen Yan",
+    url: "/jie-yuan-jie",
+    icon: Flame,
+  },
+  {
+    title: "Kai Yan Hou Zhen Yan",
+    url: "/kai-yan-hou",
+    icon: Droplet,
+  },
+  {
+    title: "Bian Shi Zhen Yan",
+    url: "/bian-shi-chen-yan",
+    icon: Utensils,
+  },
+  {
+    title: "Gan Lu Shui Zhen Yan",
+    url: "/gan-lu-shui-chen-yan",
+    icon: Droplet,
+  },
+  {
+    title: "Pu Gong Yang Zhen Yan",
+    url: "/pu-gong-yang-chen-yan",
+    icon: HandHeart,
+  },
+  {
+    title: "Shi Wu Zhe Shi Zhen Yan",
+    url: "/she-wu-zhe-shi-chen-yan",
+    icon: Leaf,
+  },
+  {
+    title: "Hui Xiang Ji",
+    url: "/hui-xiang",
+    icon: RotateCcw,
   },
 ];
 
