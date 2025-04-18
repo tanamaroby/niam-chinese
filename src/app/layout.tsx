@@ -4,16 +4,16 @@ import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import type { Metadata } from "next";
-import { Inconsolata } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import "./globals.css";
 
-const font = Inconsolata({
+const font = Noto_Sans({
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "FBC",
-  description: "FBC Resources",
+  title: "KBI",
+  description: "KBI Resources",
 };
 
 export default function RootLayout({
@@ -23,7 +23,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
       <body className={`${font.className} antialiased`}>
         <ThemeProvider attribute="class" enableSystem>
           <SidebarProvider defaultOpen={false}>
