@@ -24,13 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body
-        className={`${font.className} antialiased flex flex-col min-h-screen`}
-      >
-        <ThemeProvider attribute="class" enableSystem={false}>
+      <body className={`${font.className} antialiased`}>
+        <ThemeProvider attribute="class" enableSystem>
           <SidebarProvider defaultOpen={false}>
             <AppSidebar />
-            <main className="w-full">
+            <main className="w-full min-h-screen flex flex-col">
               <Navbar />
               <main className="flex-grow">{children}</main>
               <Footer />

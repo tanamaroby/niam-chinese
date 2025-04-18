@@ -37,7 +37,7 @@ const Navbar = () => {
               alt="FBC Logo"
               className="rounded-md h-auto"
             />
-            <p className="text-xl font-bold tracking-tight">FBC</p>
+            <p className="text-xl font-bold tracking-tight">KBI</p>
           </div>
         </Link>
       </div>
