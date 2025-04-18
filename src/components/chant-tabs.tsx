@@ -17,6 +17,12 @@ export function ChantTabs() {
         href="/pu-cau-ching"
         description="Chant to multiply and feed the departed."
       />
+      <ChineseNavCard
+        hanzi={["解", "怨", "結", "真", "言"]}
+        pinyin={["jiě", "yuàn", "jié", "zhēn", "yán"]}
+        href="/jie-yuan-jie"
+        description="Mantra for releasing resentment and dissolving karmic entanglements, chanted seven times with intention."
+      />
     </div>
   );
 }
