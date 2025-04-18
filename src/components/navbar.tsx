@@ -1,6 +1,6 @@
 "use client";
 
-import { Moon, Sun } from "lucide-react";
+import { SunMoon } from "lucide-react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,11 +22,7 @@ const Navbar = () => {
       {/* Left: Logo + Brand */}
       <div className="flex items-center gap-4">
         <Button variant="ghost" size="icon" onClick={toggleTheme}>
-          {theme === "dark" ? (
-            <Sun className="h-5 w-5" />
-          ) : (
-            <Moon className="h-5 w-5" />
-          )}
+          <SunMoon className="h-5 w-5" />
         </Button>
         <Link href="/" aria-label="Home">
           <div className="flex items-center gap-2">
