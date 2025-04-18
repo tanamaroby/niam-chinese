@@ -9,7 +9,13 @@ export function ChantTabs() {
         hanzi={["甘", "露", "施", "食", "儀", "軌"]}
         pinyin={["gān", "lù", "shī", "shí", "yí", "guǐ"]}
         href="/kan-lu"
-        description="Opening for offering and presentation"
+        description="Opening for offering and presentation."
+      />
+      <ChineseNavCard
+        hanzi={["普", "召", "請", "真", "言"]}
+        pinyin={["pǔ", "zhào", "qǐng", "zhēn", "yán"]}
+        href="/pu-cau-ching"
+        description="Chant to multiply and feed the departed."
       />
     </div>
   );
