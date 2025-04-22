@@ -29,7 +29,7 @@ export function ChantTabs() {
       />
       <ChineseNavCard
         hanzi={["開", "咽", "喉", "真", "言"]}
-        pinyin={["kāi", "yàn", "hóu", "zhēn", "yán"]}
+        pinyin={["khai", "yen", "hou", "cen", "yen"]}
         href="/kai-yan-hou"
         description="Chant used to open the throats of beings so they may receive offerings without obstruction. Repeated seven times."
       />

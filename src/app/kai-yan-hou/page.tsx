@@ -11,18 +11,18 @@ export default function KaiYanHouPage() {
       <HanziPinyin
         size="lg"
         hanzi={["開", "咽", "喉", "真", "言"]}
-        pinyin={["kāi", "yàn", "hóu", "zhēn", "yán"]}
+        pinyin={["khai", "yen", "hou", "cen", "yen"]}
       />
       <Separator />
 
       <div className="flex flex-col gap-3 items-center justify-center">
         <HanziPinyin
           hanzi={["唵", "。", "步", "步", "底", "哩", "伽", "哆", "哩", "。"]}
-          pinyin={["ōm", "", "bù", "bù", "dǐ", "lǐ", "qié", "tuō", "lǐ", ""]}
+          pinyin={["om", "", "pu", "pu", "ti", "li", "chie", "tuo", "li", ""]}
         />
         <HanziPinyin
           hanzi={["怛", "哆", "誐", "哆", "耶", "。"]}
-          pinyin={["tà", "thā", "ē", "tuō", "yē", ""]}
+          pinyin={["ta", "tha", "ye", "tuo", "ye", ""]}
         />
         <p className="text-sm text-muted-foreground">（七遍 7×）</p>
       </div>
