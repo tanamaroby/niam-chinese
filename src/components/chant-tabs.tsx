@@ -35,7 +35,7 @@ export function ChantTabs() {
       />
       <ChineseNavCard
         hanzi={["變", "食", "真", "言"]}
-        pinyin={["biàn", "shí", "zhēn", "yán"]}
+        pinyin={["pien", "she", "cen", "yen"]}
         href="/bian-shi-chen-yan"
         description="Mantra to transform offerings into pure nourishment for all beings. Often chanted before food offering rituals. Repeat seven times."
       />
