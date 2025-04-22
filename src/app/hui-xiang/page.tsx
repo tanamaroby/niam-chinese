@@ -31,7 +31,7 @@ export default function HuiXiangPage() {
         />
         <HanziPinyin
           hanzi={["不", "退", "菩", "薩", "為", "伴", "侶"]}
-          pinyin={["pu", "thuei", "phu", "sa", "wei", "pan", "lu"]}
+          pinyin={["pu", "thuei", "phu", "sa", "wei", "pan", "lü"]}
         />
       </div>
     </div>
