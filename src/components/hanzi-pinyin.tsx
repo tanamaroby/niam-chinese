@@ -9,9 +9,9 @@ type HanziPinyinProps = {
 };
 
 const sizeClasses = {
-  sm: { hanzi: "text-lg", pinyin: "text-xs" },
-  md: { hanzi: "text-xl", pinyin: "text-sm" },
-  lg: { hanzi: "text-2xl", pinyin: "text-base" },
+  sm: { hanzi: "text-base", pinyin: "text-sm" },
+  md: { hanzi: "text-lg", pinyin: "text-base" },
+  lg: { hanzi: "text-xl", pinyin: "text-lg" },
 };
 
 export const HanziPinyin: React.FC<HanziPinyinProps> = ({
