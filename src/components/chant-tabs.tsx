@@ -23,7 +23,7 @@ export function ChantTabs() {
       />
       <ChineseNavCard
         hanzi={["解", "怨", "結", "真", "言"]}
-        pinyin={["jiě", "yuàn", "jié", "zhēn", "yán"]}
+        pinyin={["cie", "yüen", "cie", "cen", "yen"]}
         href="/jie-yuan-jie"
         description="Mantra for releasing resentment and dissolving karmic entanglements, chanted seven times with intention."
       />

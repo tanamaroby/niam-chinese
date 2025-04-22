@@ -11,18 +11,18 @@ export default function JieYuanJiePage() {
       <HanziPinyin
         size="lg"
         hanzi={["解", "怨", "結", "真", "言"]}
-        pinyin={["jiě", "yuàn", "jié", "zhēn", "yán"]}
+        pinyin={["cie", "yüen", "cie", "cen", "yen"]}
       />
       <Separator />
 
       <div className="flex flex-col gap-3 items-center justify-center">
         <HanziPinyin
           hanzi={["唵", "。", "三", "陀", "羅", "。"]}
-          pinyin={["ōm", "", "sān", "tuó", "luó", ""]}
+          pinyin={["om", "", "san", "thuo", "la", ""]}
         />
         <HanziPinyin
-          hanzi={["伽", "陀", "婆", "訶", "。"]}
-          pinyin={["qié", "tuó", "pó", "hē", ""]}
+          hanzi={["伽", "陀", "娑", "婆", "訶", "。"]}
+          pinyin={["chie", "tuo", "suo", "pho", "he", ""]}
         />
         <p className="text-sm text-muted-foreground">（七遍 7×）</p>
       </div>
