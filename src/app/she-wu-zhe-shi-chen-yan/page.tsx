@@ -12,7 +12,7 @@ export default function SheWuCeSheChenYanPage() {
       <HanziPinyin
         size="lg"
         hanzi={["施", "無", "遮", "食", "真", "言"]}
-        pinyin={["shī", "wú", "zhē", "shí", "zhēn", "yán"]}
+        pinyin={["she", "wu", "ce", "she", "cen", "yen"]}
       />
       <Separator />
 
@@ -27,36 +27,36 @@ export default function SheWuCeSheChenYanPage() {
         <HanziPinyin
           hanzi={["法", "力", "不", "思", "議", "慈", "悲", "無", "障", "礙"]}
           pinyin={[
-            "fǎ",
-            "lì",
-            "bù",
-            "sī",
-            "yì",
-            "cí",
-            "bēi",
-            "wú",
-            "zhàng",
-            "ài",
+            "fa",
+            "li",
+            "pu",
+            "she",
+            "yi",
+            "che",
+            "pei",
+            "wu",
+            "cang",
+            "ai",
           ]}
         />
         <HanziPinyin
           hanzi={["七", "粒", "偏", "十", "方", "普", "施", "周", "沙", "界"]}
           pinyin={[
-            "qī",
-            "lì",
-            "piān",
-            "shí",
-            "fāng",
-            "pǔ",
-            "shī",
-            "zhōu",
-            "shā",
-            "jiè",
+            "chi",
+            "li",
+            "phien",
+            "she",
+            "fang",
+            "phu",
+            "she",
+            "cou",
+            "sa",
+            "cie",
           ]}
         />
         <HanziPinyin
           hanzi={["唵", "度", "利", "益", "莎", "訶"]}
-          pinyin={["ǒm", "dù", "lì", "yì", "suō", "hē"]}
+          pinyin={["om", "tu", "li", "yi", "suo", "he"]}
         />
         <p className="text-sm text-muted-foreground text-center">7x</p>
       </div>
@@ -72,36 +72,36 @@ export default function SheWuCeSheChenYanPage() {
         <HanziPinyin
           hanzi={["大", "鵬", "金", "翅", "鳥", "曠", "野", "鬼", "神", "眾"]}
           pinyin={[
-            "dà",
-            "péng",
-            "jīn",
-            "chì",
-            "niǎo",
-            "kuàng",
-            "yě",
-            "guǐ",
-            "shén",
-            "zhòng",
+            "ta",
+            "pheng",
+            "cin",
+            "che",
+            "niau",
+            "khuang",
+            "ye",
+            "kuei",
+            "sen",
+            "cung",
           ]}
         />
         <HanziPinyin
           hanzi={["羅", "刹", "鬼", "子", "母", "甘", "露", "悉", "充", "滿"]}
           pinyin={[
-            "luó",
-            "chà",
-            "guǐ",
-            "zǐ",
-            "mǔ",
-            "gān",
-            "lù",
-            "xī",
-            "chōng",
-            "mǎn",
+            "luo",
+            "cha",
+            "kuei",
+            "ce",
+            "mu",
+            "kan",
+            "lu",
+            "si",
+            "chung",
+            "man",
           ]}
         />
         <HanziPinyin
           hanzi={["唵", "穆", "帝", "莎", "訶"]}
-          pinyin={["ǒm", "mù", "dì", "suō", "hē"]}
+          pinyin={["om", "mu", "ti", "suo", "he"]}
         />
         <p className="text-sm text-muted-foreground text-center">7x</p>
       </div>
@@ -117,36 +117,36 @@ export default function SheWuCeSheChenYanPage() {
         <HanziPinyin
           hanzi={["沒", "等", "鬼", "神", "眾", "我", "今", "施", "沒", "供"]}
           pinyin={[
-            "mò",
-            "děng",
-            "guǐ",
-            "shén",
-            "zhòng",
-            "wǒ",
-            "jīn",
-            "shī",
-            "mò",
-            "gòng",
+            "ju",
+            "teng",
+            "kuei",
+            "sen",
+            "cung",
+            "wo",
+            "cin",
+            "she",
+            "ju",
+            "kung",
           ]}
         />
         <HanziPinyin
           hanzi={["此", "食", "偏", "十", "方", "一", "切", "鬼", "神", "共"]}
           pinyin={[
-            "cǐ",
-            "shí",
-            "piān",
-            "shí",
-            "fāng",
-            "yī",
-            "qiè",
-            "guǐ",
-            "shén",
-            "gòng",
+            "che",
+            "she",
+            "phien",
+            "she",
+            "fang",
+            "yi",
+            "chie",
+            "kuei",
+            "sen",
+            "kung",
           ]}
         />
         <HanziPinyin
           hanzi={["唵", "穆", "利", "陸", "莎", "訶"]}
-          pinyin={["ǒm", "mù", "lì", "lù", "suō", "hē"]}
+          pinyin={["om", "mu", "li", "ling", "suo", "he"]}
         />
         <p className="text-sm text-muted-foreground text-center">7x</p>
       </div>

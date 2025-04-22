@@ -53,13 +53,13 @@ export function ChantTabs() {
       />
       <ChineseNavCard
         hanzi={["施", "無", "遮", "食", "真", "言"]}
-        pinyin={["shī", "wú", "zhē", "shí", "zhēn", "yán"]}
+        pinyin={["she", "wu", "ce", "she", "cen", "yen"]}
         href="/she-wu-zhe-shi-chen-yan"
         description="Chanted three times daily — morning, midday, and evening — to offer food and merit to all sentient beings across realms."
       />
       <ChineseNavCard
         hanzi={["迴", "向", "偈"]}
-        pinyin={["huí", "xiàng", "jì"]}
+        pinyin={["huei", "siang", "ci"]}
         href="/hui-xiang"
         description="Dedication verse for transferring merit to all beings and honoring parents. Often recited after completion of chanting."
       />
