@@ -12,7 +12,7 @@ export function ChantTabs() {
       <ChineseNavCard
         hanzi={["甘", "露", "施", "食", "儀", "軌"]}
         href="/kan-lu"
-        pinyin={["gān", "lù", "shī", "shí", "yí", "guǐ"]}
+        pinyin={["kan", "lu", "she", "she", "yi", "kuei"]}
         description="A Buddhist ritual text for offering food to hungry ghosts and invoking the blessings of divine nectar."
       />
       <ChineseNavCard

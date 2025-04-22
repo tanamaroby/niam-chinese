@@ -11,22 +11,22 @@ export default function KanLuPage() {
       <HanziPinyin
         size="lg"
         hanzi={["甘", "露", "施", "食", "儀", "軌"]}
-        pinyin={["gān", "lù", "shī", "shí", "yí", "guǐ"]}
+        pinyin={["kan", "lu", "she", "she", "yi", "kuei"]}
       />
       <Separator />
 
       <div className="flex flex-col gap-3 items-center justify-center">
         <HanziPinyin
           hanzi={["南", "無", "佛", "陀", "耶", "。"]}
-          pinyin={["nán", "wú", "fó", "tuó", "yé", ""]}
+          pinyin={["na", "mo", "fo", "thuo", "ye", ""]}
         />
         <HanziPinyin
           hanzi={["南", "無", "達", "摩", "耶", "。"]}
-          pinyin={["nán", "wú", "dá", "mó", "yé", ""]}
+          pinyin={["na", "mo", "ta", "mo", "ye", ""]}
         />
         <HanziPinyin
           hanzi={["南", "無", "僧", "伽", "耶", "。"]}
-          pinyin={["nán", "wú", "sēng", "qié", "yé", ""]}
+          pinyin={["na", "mo", "seng", "chie", "ye", ""]}
         />
         <HanziPinyin
           hanzi={[
@@ -43,91 +43,80 @@ export default function KanLuPage() {
             "。",
           ]}
           pinyin={[
-            "nán",
-            "wú",
-            "běn",
-            "zūn",
-            "shì",
-            "jiā",
-            "móu",
-            "ní",
-            "rú",
-            "lái",
+            "na",
+            "mo",
+            "pen",
+            "cun",
+            "she",
+            "cia",
+            "mou",
+            "ni",
+            "ju",
+            "lai",
             "",
           ]}
         />
         <HanziPinyin
           hanzi={["南", "無", "安", "住", "大", "地", "菩", "薩", "眾", "。"]}
-          pinyin={[
-            "nán",
-            "wú",
-            "ān",
-            "zhù",
-            "dà",
-            "dì",
-            "pú",
-            "sà",
-            "zhòng",
-            "",
-          ]}
+          pinyin={["na", "mo", "an", "cu", "ta", "ti", "phu", "sa", "cung", ""]}
         />
         <HanziPinyin
           hanzi={["南", "無", "一", "切", "龍", "天", "善", "神", "。"]}
-          pinyin={[
-            "nán",
-            "wú",
-            "yī",
-            "qiè",
-            "lóng",
-            "tiān",
-            "shàn",
-            "shén",
-            "",
-          ]}
+          pinyin={["na", "mo", "yi", "chie", "lung", "thien", "san", "sen", ""]}
         />
         <HanziPinyin
           hanzi={["願", "以", "威", "神", "加", "哀", "護", "助", "。"]}
-          pinyin={["yuàn", "yǐ", "wēi", "shén", "jiā", "āi", "hù", "zhù", ""]}
+          pinyin={["yüen", "yi", "wei", "sen", "cia", "ai", "hu", "cu", ""]}
         />
 
         {/* Page 2 begins here */}
         <HanziPinyin
           hanzi={["我", "今", "召", "請", "十", "方", "剎", "土", "。"]}
-          pinyin={["wǒ", "jīn", "zhào", "qǐng", "shí", "fāng", "chà", "tǔ", ""]}
+          pinyin={[
+            "wo",
+            "cin",
+            "cau",
+            "ching",
+            "she",
+            "fang",
+            "cha",
+            "thu",
+            "",
+          ]}
         />
         <HanziPinyin
           hanzi={["盡", "虛", "空", "界", "。", "一", "切", "六", "趣", "。"]}
           pinyin={[
-            "jìn",
-            "xū",
-            "kōng",
-            "jiè",
+            "cin",
+            "sü",
+            "khung",
+            "cie",
             "",
-            "yī",
-            "qiè",
-            "liù",
-            "qù",
+            "yi",
+            "chie",
+            "liou",
+            "chü",
             "",
           ]}
         />
         <HanziPinyin
           hanzi={["餓", "鬼", "有", "情", "類", "。", "以", "三", "寶", "威"]}
           pinyin={[
-            "è",
-            "guǐ",
-            "yǒu",
-            "qíng",
-            "lèi",
+            "e",
+            "kuei",
+            "you",
+            "ching",
+            "lei",
             "",
-            "yǐ",
-            "sān",
-            "bǎo",
-            "wēi",
+            "yi",
+            "san",
+            "pau",
+            "wei",
           ]}
         />
         <HanziPinyin
           hanzi={["神", "力", "故", "。", "悉", "至", "我", "所", "。"]}
-          pinyin={["shén", "lì", "gù", "", "xī", "zhì", "wǒ", "suǒ", ""]}
+          pinyin={["sen", "li", "ku", "", "si", "ce", "wo", "suo", ""]}
         />
       </div>
     </div>
