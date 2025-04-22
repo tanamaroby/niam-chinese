@@ -17,7 +17,7 @@ export function ChantTabs() {
       />
       <ChineseNavCard
         hanzi={["普", "召", "請", "真", "言"]}
-        pinyin={["pǔ", "zhào", "qǐng", "zhēn", "yán"]}
+        pinyin={["phu", "cau", "ching", "cen", "yen"]}
         href="/pu-cau-ching-chen-yan"
         description="Universal invocation mantra chanted seven times to call forth all beings for the Dharma offering."
       />
