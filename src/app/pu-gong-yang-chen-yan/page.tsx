@@ -11,22 +11,22 @@ export default function PuGongYangChenYanPage() {
       <HanziPinyin
         size="lg"
         hanzi={["普", "供", "養", "真", "言"]}
-        pinyin={["pǔ", "gòng", "yǎng", "zhēn", "yán"]}
+        pinyin={["phu", "kung", "yang", "cen", "yen"]}
       />
       <Separator />
 
       <div className="flex flex-col gap-3 items-center justify-center">
         <HanziPinyin
           hanzi={["唵", "。", "誐", "誐", "囊", "。"]}
-          pinyin={["ōm", "", "yē", "yē", "náng", ""]}
+          pinyin={["om", "", "ye", "ye", "nang", ""]}
         />
         <HanziPinyin
           hanzi={["三", "婆", "嚩", "。"]}
-          pinyin={["sān", "pó", "wǎ", ""]}
+          pinyin={["san", "pho", "wa", ""]}
         />
         <HanziPinyin
           hanzi={["伐", "日", "囉", "斛", "。"]}
-          pinyin={["fá", "rì", "luó", "hú", ""]}
+          pinyin={["fa", "je", "la", "hung", ""]}
         />
         <p className="text-sm text-muted-foreground">（三遍 3×）</p>
       </div>

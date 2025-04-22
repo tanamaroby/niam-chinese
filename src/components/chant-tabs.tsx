@@ -41,13 +41,13 @@ export function ChantTabs() {
       />
       <ChineseNavCard
         hanzi={["甘", "露", "水", "真", "言"]}
-        pinyin={["gān", "lù", "shuǐ", "zhēn", "yán"]}
+        pinyin={["kan", "lu", "suei", "cen", "yen"]}
         href="/gan-lu-shui-chen-yan"
         description="Mantra for purifying and empowering blessed water used in offerings. Often recited seven times before sprinkling."
       />
       <ChineseNavCard
         hanzi={["普", "供", "養", "真", "言"]}
-        pinyin={["pǔ", "gòng", "yǎng", "zhēn", "yán"]}
+        pinyin={["phu", "kung", "yang", "cen", "yen"]}
         href="/pu-gong-yang-chen-yan"
         description="Universal offering mantra to dedicate offerings and merit to all sentient beings across realms. Recite three times."
       />
