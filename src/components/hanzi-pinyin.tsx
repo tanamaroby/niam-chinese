@@ -41,9 +41,7 @@ export const HanziPinyin: React.FC<HanziPinyinProps> = ({
         ))}
       </div>
       {meaning && (
-        <span className={`mt-1 text-sm text-muted-foreground text-${align}`}>
-          {meaning}
-        </span>
+        <span className={`mt-1 text-xs text-${align}`}>{meaning}</span>
       )}
     </div>
   );
