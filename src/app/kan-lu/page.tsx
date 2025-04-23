@@ -12,36 +12,28 @@ export default function KanLuPage() {
         size="lg"
         hanzi={["甘", "露", "施", "食", "儀", "軌"]}
         pinyin={["kan", "lu", "she", "she", "yi", "kuei"]}
+        meaning="Panduan upacara untuk memberikan makanan berupa nektar manis kepada para makhluk kelaparan."
       />
       <Separator />
 
       <div className="flex flex-col gap-3 items-center justify-center">
         <HanziPinyin
-          hanzi={["南", "無", "佛", "陀", "耶", "。"]}
-          pinyin={["na", "mo", "fo", "thuo", "ye", ""]}
+          hanzi={["南", "無", "佛", "陀", "耶"]}
+          pinyin={["na", "mo", "fo", "thuo", "ye"]}
+          meaning="Terpujilah Sang Buddha."
         />
         <HanziPinyin
-          hanzi={["南", "無", "達", "摩", "耶", "。"]}
-          pinyin={["na", "mo", "ta", "mo", "ye", ""]}
+          hanzi={["南", "無", "達", "摩", "耶"]}
+          pinyin={["na", "mo", "ta", "mo", "ye"]}
+          meaning="Terpujilah Dharma."
         />
         <HanziPinyin
-          hanzi={["南", "無", "僧", "伽", "耶", "。"]}
-          pinyin={["na", "mo", "seng", "chie", "ye", ""]}
+          hanzi={["南", "無", "僧", "伽", "耶"]}
+          pinyin={["na", "mo", "seng", "chie", "ye"]}
+          meaning="Terpujilah Sangha."
         />
         <HanziPinyin
-          hanzi={[
-            "南",
-            "無",
-            "本",
-            "尊",
-            "釋",
-            "迦",
-            "牟",
-            "尼",
-            "如",
-            "來",
-            "。",
-          ]}
+          hanzi={["南", "無", "本", "尊", "釋", "迦", "牟", "尼", "如", "來"]}
           pinyin={[
             "na",
             "mo",
@@ -53,70 +45,55 @@ export default function KanLuPage() {
             "ni",
             "ju",
             "lai",
-            "",
           ]}
+          meaning="Terpujilah Bhagavan Shakyamuni Buddha."
         />
         <HanziPinyin
-          hanzi={["南", "無", "安", "住", "大", "地", "菩", "薩", "眾", "。"]}
-          pinyin={["na", "mo", "an", "cu", "ta", "ti", "phu", "sa", "cung", ""]}
+          hanzi={["南", "無", "安", "住", "大", "地", "菩", "薩", "眾"]}
+          pinyin={["na", "mo", "an", "cu", "ta", "ti", "phu", "sa", "cung"]}
+          meaning="Terpujilah semua Bodhisattva yang tinggal di bumi."
         />
         <HanziPinyin
-          hanzi={["南", "無", "一", "切", "龍", "天", "善", "神", "。"]}
-          pinyin={["na", "mo", "yi", "chie", "lung", "thien", "san", "sen", ""]}
+          hanzi={["南", "無", "一", "切", "龍", "天", "善", "神"]}
+          pinyin={["na", "mo", "yi", "chie", "lung", "thien", "san", "sen"]}
+          meaning="Terpujilah semua makhluk surgawi, naga, dan roh pelindung yang bajik."
         />
         <HanziPinyin
-          hanzi={["願", "以", "威", "神", "加", "哀", "護", "助", "。"]}
-          pinyin={["yüen", "yi", "wei", "sen", "cia", "ai", "hu", "cu", ""]}
+          hanzi={["願", "以", "威", "神", "加", "哀", "護", "助"]}
+          pinyin={["yüen", "yi", "wei", "sen", "cia", "ai", "hu", "cu"]}
+          meaning="Semoga dengan kekuatan dan welas asih mereka, kita semua dilindungi dan dibimbing."
         />
 
         {/* Page 2 begins here */}
         <HanziPinyin
-          hanzi={["我", "今", "召", "請", "十", "方", "剎", "土", "。"]}
-          pinyin={[
-            "wo",
-            "cin",
-            "cau",
-            "ching",
-            "she",
-            "fang",
-            "cha",
-            "thu",
-            "",
-          ]}
+          hanzi={["我", "今", "召", "請", "十", "方", "剎", "土"]}
+          pinyin={["wo", "cin", "cau", "ching", "she", "fang", "cha", "thu"]}
+          meaning="Sekarang aku mengundang semua makhluk dari sepuluh penjuru alam Buddha."
         />
         <HanziPinyin
-          hanzi={["盡", "虛", "空", "界", "。", "一", "切", "六", "趣", "。"]}
-          pinyin={[
-            "cin",
-            "sü",
-            "khung",
-            "cie",
-            "",
-            "yi",
-            "chie",
-            "liou",
-            "chü",
-            "",
-          ]}
+          hanzi={["盡", "虛", "空", "界", "一", "切", "六", "趣"]}
+          pinyin={["cin", "sü", "khung", "cie", "yi", "chie", "liou", "chü"]}
+          meaning="Segenap makhluk dari seluruh alam semesta dan enam alam kelahiran kembali."
         />
         <HanziPinyin
-          hanzi={["餓", "鬼", "有", "情", "類", "。", "以", "三", "寶", "威"]}
+          hanzi={["餓", "鬼", "有", "情", "類", "以", "三", "寶", "威"]}
           pinyin={[
             "e",
             "kuei",
             "you",
             "ching",
             "lei",
-            "",
             "yi",
             "san",
             "pau",
             "wei",
           ]}
+          meaning="Semua makhluk kelaparan dan berperasaan, datang karena kekuatan Tiga Permata."
         />
         <HanziPinyin
-          hanzi={["神", "力", "故", "。", "悉", "至", "我", "所", "。"]}
-          pinyin={["sen", "li", "ku", "", "si", "ce", "wo", "suo", ""]}
+          hanzi={["神", "力", "故", "悉", "至", "我", "所"]}
+          pinyin={["sen", "li", "ku", "si", "ce", "wo", "suo"]}
+          meaning="Dengan kekuatan ini, semoga mereka semua hadir di hadapanku."
         />
       </div>
     </div>

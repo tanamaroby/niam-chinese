@@ -3,6 +3,7 @@ import React from "react";
 type HanziPinyinProps = {
   hanzi: string[];
   pinyin: string[];
+  meaning?: string; // New prop
   align?: "center" | "left" | "right";
   size?: "sm" | "md" | "lg";
   className?: string;
@@ -17,6 +18,7 @@ const sizeClasses = {
 export const HanziPinyin: React.FC<HanziPinyinProps> = ({
   hanzi,
   pinyin,
+  meaning,
   align = "center",
   size = "md",
   className = "",
@@ -24,18 +26,25 @@ export const HanziPinyin: React.FC<HanziPinyinProps> = ({
   const { hanzi: hanziSize, pinyin: pinyinSize } = sizeClasses[size];
 
   return (
-    <div className={`inline-flex flex-row gap-2 ${className}`}>
-      {hanzi.map((char, i) => (
-        <div
-          key={i}
-          className={`flex flex-col items-${align} text-center justify-center`}
-        >
-          <span className={`${hanziSize}`}>{char}</span>
-          <span className={`${pinyinSize} text-muted-foreground`}>
-            {pinyin[i] || ""}
-          </span>
-        </div>
-      ))}
+    <div className={`flex flex-col items-${align} ${className}`}>
+      <div className="inline-flex flex-row gap-2">
+        {hanzi.map((char, i) => (
+          <div
+            key={i}
+            className={`flex flex-col items-${align} text-center justify-center`}
+          >
+            <span className={`${hanziSize}`}>{char}</span>
+            <span className={`${pinyinSize} text-muted-foreground`}>
+              {pinyin[i] || ""}
+            </span>
+          </div>
+        ))}
+      </div>
+      {meaning && (
+        <span className={`mt-1 text-sm text-muted-foreground text-${align}`}>
+          {meaning}
+        </span>
+      )}
     </div>
   );
 };
