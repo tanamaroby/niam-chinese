@@ -63,6 +63,12 @@ export function ChantTabs() {
         href="/hui-xiang"
         description="Gatha pelimpahan jasa setelah selesai membaca mantra, untuk mendoakan orang tua dan semua makhluk."
       />
+      <ChineseNavCard
+        hanzi={["迴", "向", "偈", ""]}
+        pinyin={["huei", "siang", "ci", "(Extended)"]}
+        href="/hui-xiang-extended"
+        description="Gatha pelimpahan jasa yang diperluas setelah membaca sutra atau mantra. Ini versi yang lebih panjang."
+      />
     </ChantSection>
   );
 }
