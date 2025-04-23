@@ -12,17 +12,20 @@ export default function KaiYanHouPage() {
         size="lg"
         hanzi={["開", "咽", "喉", "真", "言"]}
         pinyin={["khai", "yen", "hou", "cen", "yen"]}
+        meaning="Mantra untuk membuka tenggorokan agar makhluk dapat menerima makanan persembahan."
       />
       <Separator />
 
       <div className="flex flex-col gap-3 items-center justify-center">
         <HanziPinyin
-          hanzi={["唵", "。", "步", "步", "底", "哩", "伽", "哆", "哩", "。"]}
-          pinyin={["om", "", "pu", "pu", "ti", "li", "chie", "tuo", "li", ""]}
+          hanzi={["唵", "。", "步", "步", "底", "哩", "伽", "哆", "哩"]}
+          pinyin={["om", "", "pu", "pu", "ti", "li", "chie", "tuo", "li"]}
+          meaning="Om. Bukalah dengan kekuatan langkah demi langkah, sehingga semua bisa menerima dengan mudah."
         />
         <HanziPinyin
-          hanzi={["怛", "哆", "誐", "哆", "耶", "。"]}
-          pinyin={["ta", "tha", "ye", "tuo", "ye", ""]}
+          hanzi={["怛", "哆", "誐", "哆", "耶"]}
+          pinyin={["ta", "tha", "ye", "tuo", "ye"]}
+          meaning="Semoga semua makhluk menerima dengan bahagia persembahan ini."
         />
         <p className="text-sm text-muted-foreground">（七遍 7×）</p>
       </div>

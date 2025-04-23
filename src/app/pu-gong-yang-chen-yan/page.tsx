@@ -12,21 +12,25 @@ export default function PuGongYangChenYanPage() {
         size="lg"
         hanzi={["普", "供", "養", "真", "言"]}
         pinyin={["phu", "kung", "yang", "cen", "yen"]}
+        meaning="Mantra persembahan universal untuk mempersembahkan segala sesuatu kepada semua Buddha dan makhluk suci."
       />
       <Separator />
 
       <div className="flex flex-col gap-3 items-center justify-center">
         <HanziPinyin
-          hanzi={["唵", "。", "誐", "誐", "囊", "。"]}
-          pinyin={["om", "", "ye", "ye", "nang", ""]}
+          hanzi={["唵", "。", "誐", "誐", "囊"]}
+          pinyin={["om", "", "ye", "ye", "nang"]}
+          meaning="Om. Persembahan ini dipersembahkan sepenuh hati."
         />
         <HanziPinyin
-          hanzi={["三", "婆", "嚩", "。"]}
-          pinyin={["san", "pho", "wa", ""]}
+          hanzi={["三", "婆", "嚩"]}
+          pinyin={["san", "pho", "wa"]}
+          meaning="Kepada semua Buddha dari tiga masa."
         />
         <HanziPinyin
-          hanzi={["伐", "日", "囉", "斛", "。"]}
-          pinyin={["fa", "je", "la", "hung", ""]}
+          hanzi={["伐", "日", "囉", "斛"]}
+          pinyin={["fa", "je", "la", "hung"]}
+          meaning="Semoga semua makhluk menerima berkah dan pencerahan."
         />
         <p className="text-sm text-muted-foreground">（三遍 3×）</p>
       </div>

@@ -25,7 +25,7 @@ const ChineseNavCard: FC<ChineseNavCardProps> = ({
       <CardHeader>
         <div className="flex items-center justify-between gap-4">
           <div className="flex flex-col gap-1">
-            <HanziPinyin hanzi={hanzi} pinyin={pinyin} />
+            <HanziPinyin hanzi={hanzi} pinyin={pinyin} align="left" />
             {description && (
               <CardDescription className="text-muted-foreground text-sm">
                 {description}

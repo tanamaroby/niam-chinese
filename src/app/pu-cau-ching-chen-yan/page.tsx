@@ -12,21 +12,25 @@ export default function PuCauChingPage() {
         size="lg"
         hanzi={["普", "召", "請", "真", "言"]}
         pinyin={["phu", "cau", "ching", "cen", "yen"]}
+        meaning="Mantra untuk mengundang semua makhluk dari sepuluh penjuru untuk menerima persembahan Dharma."
       />
       <Separator />
 
       <div className="flex flex-col gap-3 items-center justify-center">
         <HanziPinyin
-          hanzi={["南", "無", "部", "部", "帝", "唎", "。"]}
-          pinyin={["na", "mo", "pu", "pu", "ti", "li", ""]}
+          hanzi={["南", "無", "部", "部", "帝", "唎"]}
+          pinyin={["na", "mo", "pu", "pu", "ti", "li"]}
+          meaning="Terpujilah Buddha Bhūbhūti (penguasa arah)."
         />
         <HanziPinyin
           hanzi={["伽", "哩", "哆", "哩"]}
           pinyin={["chie", "li", "tuo", "li"]}
+          meaning="Kedatangan dari semua arah."
         />
         <HanziPinyin
-          hanzi={["怛", "他", "誐", "哆", "耶", "。"]}
-          pinyin={["ta", "tha", "ye", "tuo", "ye", ""]}
+          hanzi={["怛", "他", "誐", "哆", "耶"]}
+          pinyin={["ta", "tha", "ye", "tuo", "ye"]}
+          meaning="Kepada semua makhluk aku memberikan persembahan."
         />
         <p className="text-sm text-muted-foreground">（七遍 7×）</p>
       </div>
